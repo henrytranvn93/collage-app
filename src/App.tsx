@@ -12,19 +12,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <p>{ans}</p>
-        <h3 className="text-3xl font-bold underline">Test</h3>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h3 className="text-3xl font-bold underline text-center">Test Tailwind</h3>
       </header>
       
     </div>
