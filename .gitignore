@@ -11,6 +11,9 @@
 # production
 /build
 
+#wasmlib
+/wasm-lib
+
 # misc
 .DS_Store
 .env.local
