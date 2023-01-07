@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import init, {adding} from "wasm-lib";
+import LeftPanel from './components/LeftPanel';
+import RightPanel from './components/RightPanel';
 
 function App() {
 
@@ -10,10 +12,18 @@ function App() {
       })
   }, [])
   return (
-    <div className="App">
-      <header className="App-header">
-        <h3 className="text-3xl font-bold underline text-center">Test Tailwind</h3>
-      </header>
+    <div className="App bg-orange-100 h-screen w-screen">
+      <div className="App-header py-4">
+        <h3 className="text-3xl font-bold text-center font-sans text-orange-500">Create Collage {ans}</h3>
+      </div>
+      <div className="App-main-content flex h-4/5">
+        <div className="flex-none w-1/5">
+          <LeftPanel/>
+        </div>
+        <div className="flex-1">
+          <RightPanel/>
+        </div>
+      </div>
       
     </div>
   );
