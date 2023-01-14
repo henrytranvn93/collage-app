@@ -17,7 +17,7 @@ function App() {
         <h3 className="text-3xl font-bold text-center font-sans text-orange-500">Create Collage {ans}</h3>
       </div>
       <div className="App-main-content flex h-4/5">
-        <div className="flex-none w-1/5">
+        <div className="flex-none w-1/4">
           <LeftPanel/>
         </div>
         <div className="flex-1">
